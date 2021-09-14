@@ -77,7 +77,9 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "3.4.0-solc-0.7",
+    "@truffle/hdwallet-provider": "^1.5.0",
     "erc-payable-token": "3.4.0",
-    "eth-token-recover": "3.4.0"
+    "eth-token-recover": "3.4.0",
+    "truffle-hdwallet-provider": "^1.0.17"
   }
 }

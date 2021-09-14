@@ -11,8 +11,7 @@ interface IPayable {
  * @dev Implementation of the ServicePayer
  */
 abstract contract ServicePayer {
-
-    constructor (address payable receiver, string memory serviceName) payable {
-        IPayable(receiver).pay{value: msg.value}(serviceName);
+    constructor(address payable receiver, string memory serviceName) payable {
+        // IPayable(receiver).pay{value: msg.value}(serviceName);
     }
 }
